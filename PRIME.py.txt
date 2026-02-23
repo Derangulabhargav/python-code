@@ -7,6 +7,6 @@ def prime(number):
             break
     return True
 print(prime(4))
-print(prime(3))
+print(prime(4))
 print(prime(7))
 print(prime(9))
