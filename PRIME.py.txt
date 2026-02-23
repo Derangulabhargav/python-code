@@ -1,0 +1,13 @@
+def prime(number):
+    if number<1:
+        return False
+    for i in range(2,number):
+        if number % i==0:
+            return False
+            break
+    return True
+print(prime(4))
+print(prime(3))
+print(prime(7))
+print(prime(9))
+print(prime(10))

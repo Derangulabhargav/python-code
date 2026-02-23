@@ -1,0 +1,3 @@
+Identity=" D E L L TECH O NO LO G I ES "
+sen=  Identity.replace(" "," ")
+print(sen)
